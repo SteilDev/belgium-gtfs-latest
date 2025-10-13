@@ -36,8 +36,9 @@ jobs:
 
       - name: Clone and build gtfstidy
         run: |
-          git clone https://github.com/patrickbr/gtfstidy.git
+          git clone https://github.com/PatrickSteil/gtfstidy.git
           cd gtfstidy
+          git checkout encode_child_ids_via_parent
           make build
 
       - name: Add gtfstidy to PATH
@@ -47,9 +48,9 @@ jobs:
         run: |
           export PATH=$PATH:$HOME/go/bin
           for g in be_*.zip; do
-            gtfstidy "$g" -i --fix --fix-zip --remove-red-services --remove-fillers --drop-shapes --delete-orphans --output "$g"
+            gtfstidy "$g" -i --fix --keep-station-ids --fix-zip --remove-red-services --remove-fillers --drop-shapes --delete-orphans --output "$g"
           done > tidy.log
-          gtfstidy -EARPICO --red-trips-fuzzy --red-stops-fuzzy --drop-shapes -i be_*.zip -o gtfs_belgium_clean.zip --fix --remove-fillers >> tidy.log
+          gtfstidy -EARPICO --red-trips-fuzzy --red-stops-fuzzy --drop-shapes --hierarchical-stop-ids --prefix="be:" -i be_*.zip -o gtfs_belgium_clean.zip --fix --remove-fillers >> tidy.log
 
       - name: Upload cleaned GTFS as release asset
         uses: softprops/action-gh-release@v1
