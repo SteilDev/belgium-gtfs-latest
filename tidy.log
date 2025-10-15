@@ -31,12 +31,12 @@ Parsing GTFS feed in 'be_tec.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times 
 Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -0 services [-0.00%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
 Removing redundant agencies... done. (-0 agencies [-0.00%])
 Removing redundant stops... done. (-173 stops [-0.28%])
-Reclustering stops... done. (-26874 clusters) [-44.49%]
+Reclustering stops... done. (-26875 clusters) [-44.49%]
 Removing redundant routes... done. (-1231 routes [-24.30%])
 Removing service duplicates... done. (-161 services [-4.48%])
-Removing redundant trips... done. (-72466 trips [-10.12%])
-Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -3064 services [-4.48%], -4 routes [-0.10%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Removing service duplicates... done. (-61911 services [-94.69%])
+Removing redundant trips... done. (-74359 trips [-10.39%])
+Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -4825 services [-6.88%], -3 routes [-0.08%], -0 agencies [-0.00%], -0 transfers [-0.00%])
+Removing service duplicates... done. (-61867 services [-94.68%])
 Adding parent stations to all stops... done. (+9138 stations)
 Encoding stop_ids via parent_station ids ... done.
 Minimizing ids... done.
