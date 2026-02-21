@@ -1,8 +1,8 @@
 Parsing GTFS feed in 'be_delijn.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
-Removing unreferenced entries... done. (-0 trips [-0.00%], -4648 stops [-15.21%], -0 shapes [-0.00%], -0 services [-0.00%], -56 routes [-1.57%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-12112 clusters) [-46.73%]
-Removing service duplicates... done. (-682 services [-54.21%])
+Removing unreferenced entries... done. (-0 trips [-0.00%], -4685 stops [-15.33%], -0 shapes [-0.00%], -0 services [-0.00%], -58 routes [-1.62%], -0 agencies [-0.00%], -0 transfers [-0.00%])
+Reclustering stops... done. (-12106 clusters) [-46.78%]
+Removing service duplicates... done. (-680 services [-55.15%])
 Minimizing ids... done.
 Outputting GTFS feed to 'be_delijn.gtfs.zip'... done.
 Parsing GTFS feed in 'be_dewaterbus.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
@@ -14,23 +14,23 @@ Minimizing ids... done.
 Outputting GTFS feed to 'be_dewaterbus.gtfs.zip'... done.
 Parsing GTFS feed in 'be_sncb.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
-Removing unreferenced entries... done. (-0 trips [-0.00%], -1577 stops [-56.99%], -0 shapes [-0.00%], -15314 services [-81.11%], -298 routes [-24.45%], -0 agencies [-0.00%], -2 transfers [-0.21%])
+Removing unreferenced entries... done. (-0 trips [-0.00%], -1579 stops [-57.02%], -0 shapes [-0.00%], -15374 services [-81.20%], -316 routes [-25.86%], -0 agencies [-0.00%], -2 transfers [-0.21%])
 Reclustering stops... done. (-1 clusters) [-0.16%]
-Removing service duplicates... done. (-1228 services [-34.44%])
+Removing service duplicates... done. (-1252 services [-35.17%])
 Minimizing ids... done.
 Outputting GTFS feed to 'be_sncb.gtfs.zip'... done.
 Parsing GTFS feed in 'be_stib.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
-Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -4 services [-10.81%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-555 clusters) [-23.60%]
-Removing service duplicates... done. (-0 services [-0.00%])
+Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -4 services [-11.11%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
+Reclustering stops... done. (-546 clusters) [-23.21%]
+Removing service duplicates... done. (-3 services [-9.37%])
 Minimizing ids... done.
 Outputting GTFS feed to 'be_stib.gtfs.zip'... done.
 Parsing GTFS feed in 'be_tec.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -5 stops [-0.02%], -0 shapes [-0.00%], -0 services [-0.00%], -11 routes [-1.24%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-14512 clusters) [-46.51%]
-Removing service duplicates... done. (-21 services [-15.22%])
+Reclustering stops... done. (-14503 clusters) [-46.49%]
+Removing service duplicates... done. (-20 services [-15.04%])
 Minimizing ids... done.
 Outputting GTFS feed to 'be_tec.gtfs.zip'... done.
 Parsing GTFS feed in 'be_delijn.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
@@ -40,16 +40,16 @@ Parsing GTFS feed in 'be_stib.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times
 Parsing GTFS feed in 'be_tec.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -0 services [-0.00%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
 Removing redundant agencies... done. (-0 agencies [-0.00%])
-Adding parent stations to all stops... done. (+7785 stations)
-Removing redundant stops... done. (-784 stops [-0.84%])
-Reclustering stops... done. (-906 clusters) [-2.80%]
-Removing redundant routes... done. (-1524 routes [-28.19%])
-Removing service duplicates... done. (-146 services [-4.77%])
-Minimizing services... done. (-141488 calendar_dates.txt entries [-84.57%], +2576 calendar.txt entries [+1894.10%])
-Removing redundant trips... done. (-108229 trips [-17.77%])
-Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -1455 services [-1.41%], -6 routes [-0.15%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Removing service duplicates... done. (-98364 services [-96.98%])
-Minimizing services... done. (-229 calendar_dates.txt entries [-0.87%], +13 calendar.txt entries [+0.46%])
+Adding parent stations to all stops... done. (+7775 stations)
+Removing redundant stops... done. (-779 stops [-0.83%])
+Reclustering stops... done. (-915 clusters) [-2.83%]
+Removing redundant routes... done. (-1522 routes [-28.24%])
+Removing service duplicates... done. (-135 services [-4.50%])
+Minimizing services... done. (-138466 calendar_dates.txt entries [-84.94%], +2535 calendar.txt entries [+1949.99%])
+Removing redundant trips... done. (-100984 trips [-17.65%])
+Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -2488 services [-2.51%], -2 routes [-0.05%], -0 agencies [-0.00%], -0 transfers [-0.00%])
+Removing service duplicates... done. (-93796 services [-96.91%])
+Minimizing services... done. (-129 calendar_dates.txt entries [-0.52%], +14 calendar.txt entries [+0.50%])
 Computing stable stop ids ... done.
 Encoding stop_ids via parent_station ids ... done.
 Outputting GTFS feed to 'gtfs_belgium_clean.zip'... done.
