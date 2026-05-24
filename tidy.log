@@ -1,7 +1,7 @@
 Parsing GTFS feed in 'be_delijn.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -4551 stops [-14.86%], -0 shapes [-0.00%], -0 services [-0.00%], -20 routes [-0.96%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-12185 clusters) [-46.75%]
+Reclustering stops... done. (-12177 clusters) [-46.72%]
 Removing service duplicates... done. (-1075 services [-75.33%])
 Minimizing ids... done.
 Outputting GTFS feed to 'be_delijn.gtfs.zip'... done.
@@ -22,7 +22,7 @@ Outputting GTFS feed to 'be_sncb.gtfs.zip'... done.
 Parsing GTFS feed in 'be_stib.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -25 stops [-0.89%], -0 shapes [-0.00%], -27 services [-8.46%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-552 clusters) [-23.24%]
+Reclustering stops... done. (-551 clusters) [-23.20%]
 Removing service duplicates... done. (-263 services [-90.07%])
 Minimizing ids... done.
 Outputting GTFS feed to 'be_stib.gtfs.zip'... done.
@@ -40,16 +40,16 @@ Parsing GTFS feed in 'be_stib.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times
 Parsing GTFS feed in 'be_tec.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -0 services [-0.00%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
 Removing redundant agencies... done. (-0 agencies [-0.00%])
-Adding parent stations to all stops... done. (+4356 stations)
-Removing redundant stops... done. (-668 stops [-0.72%])
-Reclustering stops... done. (-874 clusters) [-2.78%]
+Adding parent stations to all stops... done. (+4360 stations)
+Removing redundant stops... done. (-662 stops [-0.72%])
+Reclustering stops... done. (-872 clusters) [-2.77%]
 Removing redundant routes... done. (-0 routes [-0.00%])
 Removing service duplicates... done. (-120 services [-4.82%])
-Minimizing services... done. (-78945 calendar_dates.txt entries [-83.58%], +2015 calendar.txt entries [+1119.44%])
-Removing redundant trips... done. (-139108 trips [-21.90%])
-Removing unreferenced entries... done. (-0 trips [-0.00%], -1 stops [-0.00%], -0 shapes [-0.00%], -11963 services [-9.74%], -6 routes [-0.15%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Removing service duplicates... done. (-108377 services [-97.72%])
-Minimizing services... done. (-67 calendar_dates.txt entries [-0.42%], +2 calendar.txt entries [+0.08%])
+Minimizing services... done. (-78945 calendar_dates.txt entries [-83.58%], +2016 calendar.txt entries [+1126.25%])
+Removing redundant trips... done. (-154614 trips [-24.34%])
+Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -14252 services [-10.65%], -6 routes [-0.15%], -0 agencies [-0.00%], -0 transfers [-0.00%])
+Removing service duplicates... done. (-117029 services [-97.87%])
+Minimizing services... done. (-70 calendar_dates.txt entries [-0.44%], +3 calendar.txt entries [+0.13%])
 Computing stable stop ids ... done.
 Encoding stop_ids via parent_station ids ... done.
 Outputting GTFS feed to 'gtfs_belgium_clean.zip'... done.
